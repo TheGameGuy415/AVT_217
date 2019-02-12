@@ -1,0 +1,59 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+
+div
+  {
+    /*display: inline;*/
+    /*float: right;*/
+    float: left;
+    margin: -50px;
+    opacity: 0.8;
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    border: solid white;
+  }
+
+div:nth-child(5n+1)
+  {
+    background-color: red;
+  }
+
+div:nth-child(5n+2)
+  {
+    background-color: blue;
+  }
+
+div:nth-child(5n+3)
+  {
+    background-color: green;
+  }
+
+div:nth-child(5n+4)
+  {
+    background-color: cyan;
+  }
+
+div:nth-child(5n+5)
+  {
+    background-color: purple;
+  }
+
+div:nth-child(3n)
+  {
+    border: solid black;
+    opacity: 0.5;
+  }
+
+div:nth-child(6n)
+  {
+    opacity: 0.2;
+  }
+
+div:nth-child(9n)
+  {
+    border-radius: 25%;
+  }

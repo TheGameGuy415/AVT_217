@@ -1,0 +1,27 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background-color: black
+}
+
+div
+  {
+    /*display: inline;*/
+    /*float: right;*/
+    float: left;
+    margin: 0px;
+    opacity: 0.8;
+    width: 0;
+    height: 0;
+
+    border-left: 250px solid transparent;
+    border-right: 250px solid transparent;
+
+    border-bottom: 250px solid white;
+  }
+
+.test
+{
+  margin: 0px 50px 0px 50px;
+}
