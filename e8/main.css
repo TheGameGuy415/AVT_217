@@ -1,0 +1,52 @@
+body  {margin: 0;}
+
+p
+  {
+    font-size: 32px;
+    color: white;
+    font-family: 'Merienda', cursive;
+  }
+
+.container
+  {
+    width: 0;
+    height: 0;
+    margin: 200px auto;
+    background-color: none;
+    position: relative;
+    left: -200px;
+  }
+
+.circle-left, .circle-right, .body
+{
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  position: absolute;
+}
+
+.circle-left
+  {
+    border-radius: 100%;
+    left: 35px;
+  }
+.circle-right
+  {
+    border-radius: 100%;
+    left: 175px;
+  }
+
+.body
+  {
+    transform: rotate(45deg);
+    top:  70px;
+    left: 105px;
+  }
+
+#message
+  {
+    width: 410px;
+    position: absolute;
+    text-align: center;
+    top: 80px;
+  }
