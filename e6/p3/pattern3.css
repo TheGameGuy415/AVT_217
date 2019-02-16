@@ -1,0 +1,24 @@
+body
+  {
+      margin: 0;
+      padding: 0;
+      background-color: lightgrey;
+  }
+
+div
+  {
+    float: left;
+    width: 200px;
+    height: 400px;
+    margin: 0px;
+
+    opacity: .9;
+    background-color: black;
+  }
+
+div:nth-child(2n+2)
+  {
+    opacity: 0.8;
+    transform: rotate(90deg);
+    background-color: darkblue;
+  }

@@ -6,8 +6,6 @@ body
 
 div
   {
-    /*display: inline;*/
-    /*float: right;*/
     float: left;
     margin: -50px;
     opacity: 0.8;

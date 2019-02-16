@@ -1,0 +1,63 @@
+body
+  {
+      margin: 0;
+      padding: 0;
+      background-color: #142739;
+  }
+
+div
+  {
+    float: left;
+    width: 200px;
+    height: 400px;
+    margin: 0px;
+
+    opacity: .7;
+    background-color: cornsilk;
+  }
+
+div:nth-child(4n+4)
+  {
+    opacity: 0.6;
+    background-color: ivory;
+  }
+
+div:nth-child(3n+2)
+  {
+    opacity: 0.5;
+    background-color: oldlace;
+  }
+
+div:nth-child(8n+1)
+  {transform: rotate(10deg);}
+div:nth-child(8n+2)
+  {transform: rotate(20deg);}
+div:nth-child(8n+3)
+  {transform: rotate(30deg);}
+div:nth-child(8n+4)
+  {transform: rotate(40deg);}
+div:nth-child(8n+5)
+  {transform: rotate(50deg);}
+div:nth-child(8n+6)
+  {transform: rotate(60deg);}
+div:nth-child(8n+7)
+  {transform: rotate(70deg);}
+div:nth-child(8n+8)
+  {transform: rotate(80deg);}
+
+div:nth-child(8n+9)
+  {transform: rotate(-10deg);}
+div:nth-child(8n+10)
+  {transform: rotate(-20deg);}
+div:nth-child(8n+11)
+  {transform: rotate(-30deg);}
+div:nth-child(8n+12)
+  {transform: rotate(-40deg);}
+div:nth-child(8n+13)
+  {transform: rotate(-50deg);}
+div:nth-child(8n+14)
+  {transform: rotate(-60deg);}
+div:nth-child(8n+15)
+  {transform: rotate(-70deg);}
+div:nth-child(8n+16)
+  {transform: rotate(-80deg);}
