@@ -65,17 +65,66 @@ div {float: left;}
   }
 
 /*3 column grid*/
-.header
+.footer, .byline, .column
   {
+    background-color: red;
+    border: 5px solid white;
+  }
 
+.column-grid, .footer, .byline
+  {
+    width: 600px;
+  }
+
+.footer
+  {
+    height: 100px;
   }
 
 .byline
   {
-
+    height: 25px;
   }
 
 .column
   {
+    width: 200px;
+    height: 400px;
+  }
 
+/*blog layout*/
+.header, .sidebar, .text, .bottom
+  {
+    background-color: red;
+    border: 5px solid white;
+  }
+
+.header
+  {
+    width: 600px;
+    height: 150px;
+  }
+
+.sidebar
+  {
+    width: 100px;
+    height: 150px;
+  }
+
+.text
+  {
+    width: 500px;
+    height: 300px;
+  }
+
+.bottom
+  {
+    width: 500px;
+    height: 50px;
+  }
+
+.spacer
+  {
+    width: 600px;
+    height: 50px;
   }
