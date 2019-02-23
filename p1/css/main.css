@@ -32,6 +32,11 @@ p
     color: red;
     font-weight: bold;
   }
+.hidden:visited
+  {
+    color: red;
+    font-weight: bold;
+  }
 
 a:link, a:visited, a:hover, a:active
   {
