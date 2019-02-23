@@ -21,23 +21,6 @@ p
     font-family: 'Charm', cursive;
   }
 
-.hidden:link, .hidden:visited, .hidden:active
-  {
-    font-weight: normal;
-    color: black;
-  }
-.hidden:hover
-  {
-    transition: all 0.4s linear;
-    color: red;
-    font-weight: bold;
-  }
-.hidden:visited
-  {
-    color: red;
-    font-weight: bold;
-  }
-
 a:link, a:visited, a:hover, a:active
   {
     font-weight: bold;
@@ -54,6 +37,23 @@ a:hover
   {
     transition: all 0.4s linear;
     color: red;
+  }
+
+.hidden:link, .hidden:visited, .hidden:active
+  {
+    font-weight: normal;
+    color: black;
+  }
+.hidden:hover
+  {
+    transition: all 0.4s linear;
+    color: red;
+    font-weight: bold;
+  }
+.hidden:visited
+  {
+    color: darkred;
+    font-weight: bold;
   }
 
 .container
