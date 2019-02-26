@@ -24,8 +24,8 @@ p
 a:link, a:visited, a:hover, a:active
   {
     font-weight: bold;
-    text-decoration: none;
     color: black;
+    text-decoration: none;
   }
 
 a:visited
@@ -36,7 +36,8 @@ a:visited
 a:hover
   {
     transition: all 0.4s linear;
-    color: red;
+    color: crimson;
+    text-decoration: underline;
   }
 
 .hidden:link, .hidden:visited, .hidden:active
@@ -47,11 +48,13 @@ a:hover
 .hidden:hover
   {
     transition: all 0.4s linear;
-    color: red;
+    color: crimson;
     font-weight: bold;
+    text-decoration: underline;
   }
 .hidden:visited
   {
+    transition: color 0.4s linear;
     color: darkred;
     font-weight: bold;
   }
