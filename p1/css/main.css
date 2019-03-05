@@ -64,6 +64,7 @@ a:hover
 .container
   {
     border: 20px solid wheat;
+    border-radius: 3%;
     background-color: wheat;
     width: 800px;
     margin: 50px auto;
