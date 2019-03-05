@@ -1,6 +1,8 @@
+* {box-sizing: border-box;}
+
 body
   {
-    background-color: wheat;
+    background-color: rgb(5,5,5);
     font-size: 20px;
   }
 
@@ -61,6 +63,8 @@ a:hover
 
 .container
   {
+    border: 20px solid wheat;
+    background-color: wheat;
     width: 800px;
     margin: 50px auto;
   }
