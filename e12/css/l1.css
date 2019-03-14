@@ -4,24 +4,39 @@ body
   {
     font-size: 16px;
     margin: 0px;
-    font-family: 'Roboto', sans-serif;
+    font-family: myriad-pro, sans-serif;
+
+    font-weight: 700;
+
+    font-style: normal;
   }
 
 h1
   {
-    font-size: 11.089em;
-    line-height: .0em;
+    font-size: 16.8em;
+    line-height: 1px;
+    font-family: myriad-pro-condensed,sans-serif;
+    font-weight: 400;
+    font-style: normal;
   }
 
 h3
   {
     font-size: 1.618em;
     line-height: .4em;
+    font-style: normal;
+  }
+
+#byline
+  {
+    width: 850px;
+    position: relative;
+    left: 15px;
   }
 
 #container
   {
-    width: 1200px;
+    width: 975px;
     margin: 20px auto;
     border: 10px solid firebrick;
     padding: 50px;
@@ -43,6 +58,9 @@ h3
 
 #textblock
     {
+      position: relative;
+      left: 26px;
+
       padding: 10px;
       width: 600px;
     }
