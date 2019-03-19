@@ -1,0 +1,13 @@
+/*https://css-tricks.com/perfect-full-page-background-image/*/
+
+*
+  {
+    box-sizing: border-box;
+  }
+
+.imgBorder
+  {
+    margin: 50px;
+    border-radius: 80%;
+    border: solid blue;
+  }
