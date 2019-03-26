@@ -34,7 +34,7 @@ h1,h2,h3,h4,h5,h6
   h5  {font-size: 1em;}
   h6  {font-size: 1em;}
 
-@media only screen and (min-width: 600px)
+@media only screen and (min-width: 700px)
   {
     h1,h2,h3,h4,h5,h6
       {
