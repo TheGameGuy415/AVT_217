@@ -1,14 +1,19 @@
+*
+  {
+  }
+
 img
   {
     position: relative;
-    right: 150px;
+    right: 135px;
   }
 
 body {background-color: white;}
 
-div
+main
   {
+    text-align: center;
     position: relative;
-    width: 110px;
+    width: 125px;
     margin: auto;
   }
