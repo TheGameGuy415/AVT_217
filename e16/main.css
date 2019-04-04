@@ -32,6 +32,7 @@ span:hover
 
 .title
     {
+      text-align: left;
       height: 100px;
     }
 
@@ -49,8 +50,7 @@ span:hover
 
 #listName
   {
-    text-align: center;
-    transition: all 1s ease;
+
   }
 
 #listTitle
@@ -70,7 +70,6 @@ span:hover
 
 #g1Title, #g2Title, #g3Title, #g4Title, #g5Title
   {
-    text-align: left;
     position: relative;
     margin: auto;
     width: 1000px;
