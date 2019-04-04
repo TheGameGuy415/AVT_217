@@ -1,7 +1,11 @@
-body
+*
   {
     margin: 0;
     box-sizing: border-box;
+  }
+
+body
+  {
     font-size: 16px;
   }
 
@@ -32,14 +36,17 @@ span:hover
 
 .title
     {
-      text-align: left;
+      text-align: center;
       height: 100px;
+      opacity: 0;
     }
 
 .open
   {
     height: 100vh;
     text-align: center;
+    color: white;
+    opacity: 1;
   }
 
 .blue
@@ -66,6 +73,12 @@ span:hover
 #game1, #game2, #game3, #game4, #game5
   {
     transition: all 1s ease;
+  }
+
+#game1
+  {
+    background-image: url('imgs/3572952-dragonborn.jpg');
+    background-size: cover;
   }
 
 #g1Title, #g2Title, #g3Title, #g4Title, #g5Title
