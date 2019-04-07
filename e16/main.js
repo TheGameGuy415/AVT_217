@@ -11,6 +11,27 @@ $(document).ready(function()
         $('#listTitle').css('color', 'black');
       });
 
+    $('#g1Title').click(function()
+      {
+        $('#g1').toggleClass('open');
+      });
+    $('#g2Title').click(function()
+      {
+        $('#g2').toggleClass('open');
+      });
+    $('#g3Title').click(function()
+      {
+        $('#g3').toggleClass('open');
+      });
+    $('#g4Title').click(function()
+      {
+        $('#g4').toggleClass('open');
+      });
+    $('#g5Title').click(function()
+      {
+        $('#g5').toggleClass('open');
+      });
+
     $('#g1').click(function()
       {
         $('#g1').toggleClass('open');
