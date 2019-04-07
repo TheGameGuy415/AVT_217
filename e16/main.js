@@ -11,10 +11,24 @@ $(document).ready(function()
         $('#listTitle').css('color', 'black');
       });
 
-    $('#g1Title').click(function()
+    $('#g1').click(function()
       {
-        $('#game1').toggleClass('closed');
-        $('#game1').toggleClass('open');
+        $('#g1').toggleClass('open');
       });
-
+    $('#g2').click(function()
+      {
+        $('#g2').toggleClass('open');
+      });
+    $('#g3').click(function()
+      {
+        $('#g3').toggleClass('open');
+      });
+    $('#g4').click(function()
+      {
+        $('#g4').toggleClass('open');
+      });
+    $('#g5').click(function()
+      {
+        $('#g5').toggleClass('open');
+      });
   });

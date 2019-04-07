@@ -2,6 +2,7 @@
   {
     margin: 0;
     box-sizing: border-box;
+    text-align: center;
   }
 
 body
@@ -13,39 +14,34 @@ h1
   {
     margin: 0;
     font-size: 5em;
-    /*padding: 40vh 0 0 0;
-    font-family: sans-serif;
-    text-transform: uppercase;*/
     letter-spacing: 1px;
     font-weight: bold;
     transition: all 2s ease;
   }
 
-span:hover
+.title
+  {
+    text-align: center;
+    height: 100px;
+    opacity: 0;
+    position: relative;
+    bottom: 100px;
+  }
+
+.title:hover
   {
     cursor: pointer;
   }
 
-.container
+.gameTitle
   {
-    /*position: relative;
-    margin: auto;
-    width: 800px;
-    margin: 50px auto;*/
+    position: relative;
+    bottom: 100px;
   }
-
-.title
-    {
-      text-align: center;
-      height: 100px;
-      opacity: 0;
-    }
 
 .open
   {
     height: 100vh;
-    text-align: center;
-    color: white;
     opacity: 1;
   }
 
@@ -54,37 +50,38 @@ span:hover
     background-color: blue;
   }
 
-
-#listName
+#g1, #g2, #g3, #g4, #g5
   {
-
-  }
-
-#listTitle
-  {
-
-  }
-
-#list
-  {
-
-  }
-
-#game1, #game2, #game3, #game4, #game5
-  {
+    position: relative;
     transition: all 1s ease;
   }
 
-#game1
+#g1
   {
     background-image: url('imgs/3572952-dragonborn.jpg');
     background-size: cover;
   }
 
-#g1Title, #g2Title, #g3Title, #g4Title, #g5Title
+#g2
   {
-    position: relative;
-    margin: auto;
-    width: 1000px;
-    margin: 0px auto;
+    background-image: url('imgs/hotline-miami.jpg');
+    background-size: cover;
+  }
+
+#g3
+  {
+    background-image: url('imgs/blood-money.jpg');
+    background-size: cover;
+  }
+
+#g4
+  {
+    background-image: url('imgs/UNDERTALE.jpg');
+    background-size: cover;
+  }
+
+#g5
+  {
+    background-image: url('imgs/KOTOR_II.jpg');
+    background-size: cover;
   }
