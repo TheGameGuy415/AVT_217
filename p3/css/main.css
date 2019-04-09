@@ -2,18 +2,8 @@
 
 *
   {
+    margin: 0px;
     box-sizing: border-box;
-  }
-
-#navbar
-  {
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    width: 2500px;
-    height: 50px;
-    background-color: #1a4280;
-    /* border: 3px solid blue; */
   }
 
 body
@@ -22,9 +12,17 @@ body
     font-weight: 400;
     font-style: normal;
     font-size: 20px;
-    margin: 50px auto;
+  }
 
+main
+  {
+    margin: 50px auto;
     width: 90vw;
+  }
+
+p
+  {
+    color: black;
   }
 
 h1,h2,h3,h4,h5,h6
@@ -32,22 +30,47 @@ h1,h2,h3,h4,h5,h6
     color: #1a4280
   }
 
-p
+img
   {
-    color: #2258a5
+    position: relative;
+  }
+
+.navbar
+  {
+    /* position: fixed;
+    top: 0px;
+    left: 0px; */
+    width: 2500px;
+    height: 50px;
+    background-color: #1a4280;
+    /* border: 3px solid blue; */
+  }
+
+.img
+  {
+
   }
 
 .imgBorder
   {
-    margin: 50px;
+    /* margin: 50px; */
     border-radius: 10%;
     border: solid #1a4280;
     border-width: 20px;
+    max-width:100%;
+  }
+
+.headerImg
+  {
+    background-image: url('assets/images/mans-best-friend.jpg');
+    background-size: cover;
+
+    height: 100vh;
   }
 
 @media only screen and (min-width: 320px)
   {
-    body
+    main
       {
         width: 80vw;
         background-color: cornsilk;
@@ -56,7 +79,7 @@ p
 
 @media only screen and (min-width: 780px)
   {
-    body
+    main
       {
         width: 70vw;
         background-color: yellow;
@@ -65,7 +88,7 @@ p
 
 @media only screen and (min-width: 1024px)
   {
-    body
+    main
       {
         width: 60vw;
         background-color: black;
@@ -74,9 +97,14 @@ p
 
 @media only screen and (min-width: 1440px)
   {
-    body
+    main
       {
         width: 50vw;
-        background-color: firebrick;
+        background-color: white;
       }
+  }
+
+#img1, #img2, #img3, #img4, #img5,
+  {
+
   }
