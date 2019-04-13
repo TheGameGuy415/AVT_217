@@ -1,0 +1,14 @@
+Ideas
+      Infinitely Scrolling Dots
+      "www.dot.dot"
+
+      Keeps the mouse bound in the center of the screen, maybe cool stuff on the sides?
+      "www.mouse.center"
+
+      An interesting button that constantly avoids your mouse
+      "www.cant.click"
+
+      Random Dad joke Generator
+      "www.jokes.dad"
+
+      "www.moredots.dot"
