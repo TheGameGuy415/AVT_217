@@ -8,78 +8,61 @@ function rps()
   {
   	var randomNumber = Math.floor(Math.random() * 3);
     console.log(randomNumber);
-    var msg = '';
 
     $('#btn1').click(function()
       {
         if (randomNumber == 0)
           {
-            console.log("btn1 correct!");
-            $('#prompt').text('You Win!');
+            $('#prompt').text('Draw');
             $('#img1').css('opacity', '1');
           }
-        else
+        if (randomNumber == 1)
           {
-            console.log("btn1 WRONG!");
             $('#prompt').text('You lose...');
-          }
-
-        if(randomNumber == 1)
-          {
             $('#img2').css('opacity', '1');
           }
-        if(randomNumber == 2)
+        if (randomNumber == 2)
           {
+            $('#prompt').text('You Win!');
             $('#img3').css('opacity', '1');
           }
-
       });
 
       $('#btn2').click(function()
         {
-          if (randomNumber == 1)
+          if (randomNumber == 0)
             {
-              console.log("btn2 correct!");
               $('#prompt').text('You Win!');
-              $('#img2').css('opacity', '1');
-            }
-          else
-            {
-              console.log("btn2 WRONG!");
-              $('#prompt').text('You lose...');
-            }
-
-          if(randomNumber == 0)
-            {
               $('#img1').css('opacity', '1');
             }
-          if(randomNumber == 2)
+          if (randomNumber == 1)
             {
+              $('#prompt').text('Draw');
+              $('#img2').css('opacity', '1');
+            }
+          if (randomNumber == 2)
+            {
+              $('#prompt').text('You lose...');
               $('#img3').css('opacity', '1');
             }
         });
 
       $('#btn3').click(function()
         {
-          if (randomNumber == 2)
+          if (randomNumber == 0)
             {
-              console.log("btn3 correct!");
-              $('#prompt').text('You Win!');
-              $('#img3').css('opacity', '1');
-            }
-          else
-            {
-              console.log("btn3 WRONG!");
               $('#prompt').text('You lose...');
-            }
-
-          if(randomNumber == 0)
-            {
               $('#img1').css('opacity', '1');
             }
-          if(randomNumber == 1)
+          if (randomNumber == 1)
             {
+              $('#prompt').text('You Win!');
               $('#img2').css('opacity', '1');
+            }
+          if (randomNumber == 2)
+            {
+              $('#prompt').text('Draw');
+              $('#img3').css('opacity', '1');
             }
         });
     }
