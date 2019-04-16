@@ -21,3 +21,5 @@ function jokes()
         $('#pnchline').css('opacity', '1');
       });
   }
+
+//Maybe re use button to reset the site, infinite jokes!
