@@ -2,42 +2,73 @@
   {
     margin: 0;
     box-sizing: border-box;
-    text-align: center;
   }
 
 body
   {
-    font-size: 16px;
+    font-family: 'Luckiest Guy', cursive;
+
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+
+    background-color: skyblue;
   }
 
 main
   {
     width: 100vw;
-    background-color: lightgrey;
-    margin: 50px auto;
+
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 
 h1
   {
+    font-size: 2em;
+    line-height: 2em
+  }
+
+.padding
+  {
+    padding: 10px;
+  }
+
+.shown
+  {
+    opacity: 1;
     transition: all 1s ease;
   }
 
-#pnchline
+.hidden
   {
     opacity: 0;
   }
 
+#pnchline
+  {
+
+  }
+
 #button
   {
-    width: 100px;
-    height: 50px;
-    background-color: grey;
-    margin: 0px auto;
+    background-color: royalblue;
     border-radius: 10%;
+
+    text-decoration: none;
+
+    box-shadow: 5px 5px 10px black;
+
+    transition: all 0.5s ease;
   }
 
 #button:hover
   {
+    text-decoration: underline;
     cursor: pointer;
-    /* border-width: 5px; */
+    box-shadow: 4px 4px 20px black;
   }
