@@ -22,7 +22,7 @@ function jokes()
       "What's the difference between a guitar and a fish?",
       "Why do fish struggle in school?",
       "Why did the man not shave his beard?",
-      "What to you call a belt made out of dollar bills?",
+      "What do you call a belt made out of dollar bills?",
       "Do you want to hear a joke about ghosts?",
       "Why shouldn't you get married at a gym?",
       "Why is yogurt so diverse?",
@@ -57,9 +57,9 @@ function jokes()
       "It's fine, he woke up.",
       "Because they’re really really good at it.",
       "Because he couldn’t see that well.",
-      "But none of them work.",
+      "None of them work.",
       "A Gummy Bear.",
-      "An irrelephant.",
+      "An Irrelephant.",
       "When it becomes apparent.",
       "You can tune a guitar, but you can't tuna fish!",
       "They're below C level.",
@@ -73,12 +73,12 @@ function jokes()
 
     console.log(index);
     console.log(jokesArray[index]);
-    console.log(promptArray[index]);
     console.log(pnchlineArray[index]);
+    console.log(promptArray[index]);
 
     $('#joke').text(jokesArray[index]);
-    $('#button').text(promptArray[index]);
     $('#pnchline').text(pnchlineArray[index]);
+    $('#button').text(promptArray[index]);
 
     var shown = false;
     $('#button').click(function()
@@ -103,8 +103,8 @@ function jokes()
                 index = Math.floor(Math.random() * jokesArray.length)
               }
             $('#joke').text(jokesArray[index]);
-            $('#button').text(promptArray[index]);
             $('#pnchline').text(pnchlineArray[index]);
+            $('#button').text(promptArray[index]);
 
             shown = false;
           }
