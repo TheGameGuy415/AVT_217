@@ -102,6 +102,11 @@ function jokes()
               {
                 index = Math.floor(Math.random() * jokesArray.length)
               }
+            console.log(index);
+            console.log(jokesArray[index]);
+            console.log(pnchlineArray[index]);
+            console.log(promptArray[index]);
+
             $('#joke').text(jokesArray[index]);
             $('#pnchline').text(pnchlineArray[index]);
             $('#button').text(promptArray[index]);
